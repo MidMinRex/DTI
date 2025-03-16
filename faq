@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            color: #333;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .faq-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+        }
+        .faq-list {
+            width: 50%;
+        }
+        .faq-list h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .faq-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .faq-list li {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #555;
+        }
+        .faq-buttons {
+            width: 50%;
+        }
+        .faq-button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #E7A653;
+            color: #333;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .faq-button:hover {
+            background: #d8934d;
+        }
+        .faq-button span {
+            font-size: 18px;
+        }
+        .faq-footer {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .faq-footer a {
+            color: #0077cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Frequently asked questions</h2>
+
+    <div class="faq-container">
+        <div class="faq-list">
+            <h3>1. About Wandernest</h3>
+            <ul>
+                <li>• How long have you been in business?</li>
+                <li>• Why did you start this journey?</li>
+            </ul>
+
+            <h3>2. Tell me more about the trip</h3>
+            <ul>
+                <li>• What do I need to bring?</li>
+                <li>• How do I get to the cabin?</li>
+            </ul>
+
+            <h3>3. Pets, family & friends</h3>
+            <ul>
+                <li>• Please tell me I can bring my dog</li>
+                <li>• How many people share a ride?</li>
+            </ul>
+        </div>
+
+        <div class="faq-buttons">
+            <button class="faq-button">
+                About our plans <span>➜</span>
+            </button>
+            <button class="faq-button">
+                Tell me more about the destinations <span>➜</span>
+            </button>
+            <button class="faq-button">
+                Pets, family & friends <span>➜</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="faq-footer">
+        <strong>Still have a question?</strong><br>
+        If you still have questions contact a member of the team on <a href="#">live chat</a> and we’d be more than happy to help.
+    </div>
+
+</body>
+</html>
