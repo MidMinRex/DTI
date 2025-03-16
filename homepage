@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100vh;
+            background: linear-gradient(to right, #0a0f0d, rgba(10, 15, 13, 0.7)), url('https://source.unsplash.com/1600x900/?cabin,forest');
+            background-size: cover;
+            background-position: center;
+            padding: 50px;
+            color: white;
+        }
+        .hero-content {
+            max-width: 45%;
+        }
+        .hero-content h1 {
+            font-size: 50px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+        .hero-content p {
+            font-size: 18px;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+        .users {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .users img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid white;
+            margin-right: -10px;
+        }
+        .rating {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        .rating img {
+            height: 20px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>CONNECT.<br>PLAN.<br>TRAVEL.</h1>
+            <p>Connect with fellow travelers, plan personalized trips, and share your adventures. Whether you’re seeking new friends or unforgettable experiences, your journey begins here. Start exploring today!</p>
+            <div class="users">
+                <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="User">
+                <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="User">
+                <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="User">
+                <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="User">
+                <div class="rating">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Trustpilot_logo.png" alt="Trustpilot" style="height: 20px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Star_rating_4.5_of_5.png" alt="Rating">
+                    4.5 / 5
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
